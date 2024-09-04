@@ -1,0 +1,17 @@
+:root{
+    --font-color1:#fff;
+    --font-color2:#0e0620;
+    --font-color3:;
+    --font-color4:;
+    --bg-color1:#F8F7F4;
+    --bg-color2:;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--bg-color1);
+}
