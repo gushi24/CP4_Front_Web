@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: Nunito Sans;
+.errorText{
     color: var(--font-color2);
 }
 
-h1{
+.errorText h1{
     font-size: 7.5em;
     margin: 15px 0px;
     font-weight: bold;
@@ -20,7 +15,7 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-h2{
+.errorText h2{
     font-weight: bold;
     position: absolute;
     top: 45%;
@@ -29,7 +24,7 @@ h2{
     transform: translate(-50%, -50%);
 }
 
-p{
+.errorText p{
     position: absolute;
     top: 50%;
     left: 50%;
