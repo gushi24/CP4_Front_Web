@@ -10,13 +10,13 @@ const Error=()=>{
             <h2>UH OH! You're lost.</h2>
             <p>The page you are looking for does not exist.<br/> You can click the button below to go back to the homepage.</p>
             <Link>
-                <button class="Btn">
+                <button className="Btn">
   
-                    <div class="sign">
+                    <div className="sign">
                         <img src={homeIcon} alt='icon'></img>
                     </div>
   
-                    <div class="text">Home</div>
+                    <div className="text">Home</div>
                 </button>
 
 
