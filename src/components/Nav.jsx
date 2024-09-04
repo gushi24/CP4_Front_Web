@@ -5,7 +5,7 @@ const Nav=()=>{
     return (
         <>
         <Link to='/'>Home</Link>
-        <Link to='/contato'>Contato</Link>
+        <Link to='/contact'>Contato</Link>
         </>
     )
 }
