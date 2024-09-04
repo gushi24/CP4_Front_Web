@@ -136,7 +136,7 @@ button{
 
 .navLogin{
     margin-left: auto;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .navLogin button{
@@ -146,6 +146,7 @@ button{
     background-color: var(--color4); 
     color: var(--font-color1);
     cursor: pointer;
+    transform: scale(1.5);
 }
 
 .navLogin button:hover{
