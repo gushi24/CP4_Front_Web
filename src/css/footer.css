@@ -1,0 +1,38 @@
+footer{
+    background-color: var(--color2);
+    display: flex;
+    color: var(--font-color1); 
+}
+
+.footerInfo{
+    max-width: 33%;
+    margin-right: auto;
+}
+
+.footerInfo p{
+    font-size: 0.9em;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.footerContact{
+    display: flex;
+    flex-direction: column;
+    max-width: 34%;
+}
+
+.footerHours{
+    max-width: 33%;
+    margin-left: auto;
+}
+
+.footerTitle{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact{
+    list-style: none;
+    padding: 10px;
+}

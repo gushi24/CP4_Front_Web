@@ -13,7 +13,7 @@
 }
   
 .cardImage:hover{
-    transform: scale(0.98);
+    transform: scale(1.02);
 }
   
 .category{
@@ -38,13 +38,25 @@
     cursor: pointer;
 }
   
-.author{
-    color: gray;
+.value{
+    display: flex;
+    align-items: center;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 13px;
     padding-top: 20px;
 }
+
+.onStock{
+    color: var(--font-color4);
+}
   
+.outStock{
+    color: var(--font-color3);
+}
+
+.price{
+    margin-left: auto;
+}
 .name{
     font-weight: 600;
 }

@@ -1,13 +1,14 @@
 :root{
     --font-color1:#fff;
     --font-color2:#0e0620;
+    --font-color3:#C40C0C;
+    --font-color4:#06D001;
     --color1:#16171d;
     --color2:#2b2c37;
     --color3:#2f303d;
     --color4:#007bff;
     --color5:#0056b3;
     --bg-color1:#F8F7F4;
-    --bg-color2:;
 }
 
 *{

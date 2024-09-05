@@ -5,16 +5,17 @@ const Footer=()=>{
         <>  
         <footer>
 
-            <div>
-                <h1></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet aliquam dapibus. Vivamus egestas nec dui vel egestas. Fusce mollis lorem et nunc imperdiet sodales.</p>
+            <div className='footerInfo'>
+                <h1 className='footerTitle'>About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet aliquam dapibus. Vivamus egestas necconsectetur adipiscing elit. Nunc<br/>uet aliquam dapibus. Vivamus egestas nec dui vel egesta dui vel egestas. Fusce mollis lorem et nunc imperdiet sodales.</p>
                 <img src="#" alt="socialIcon" />
                 <img src="#" alt="socialIcon" />
                 <img src="#" alt="socialIcon" />
                 <img src="#" alt="socialIcon" />
             </div>
 
-            <div>
+            <div className='footerContact'>
+                <h1 className='footerTitle'>Contact</h1>
                 <ul className="contact">
                     <li className="list">
                         <img src="#" alt="contactIcon" />
@@ -35,8 +36,8 @@ const Footer=()=>{
                 </ul>
             </div>
 
-            <div>
-                <h1></h1>
+            <div className='footerHours'>
+                <h1 className='footerTitle'>Opening Hours</h1>
                 <table className="table">
                     <tbody className="openHours">
                         <tr>
