@@ -1,12 +1,41 @@
 footer{
-    background-color: var(--color2);
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
     color: var(--font-color1); 
+    background-color: var(--color2);
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footerInfo{
-    max-width: 33%;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.footerText{
+    display: flex;
+    justify-content: center;
+}
+
+.footerSocials{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footerSocials img{
+    width: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0 10px;
 }
 
 .footerInfo p{
@@ -16,23 +45,53 @@ footer{
 }
 
 .footerContact{
+    flex: 1;
     display: flex;
     flex-direction: column;
-    max-width: 34%;
 }
 
 .footerHours{
-    max-width: 33%;
-    margin-left: auto;
+    flex: 1;
 }
 
 .footerTitle{
+    display: flex;
+    justify-content: center;
     font-size: 1.5em;
-    text-align: center;
     padding: 10px;
 }
 
 .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     list-style: none;
     padding: 10px;
+}
+
+.list{
+    padding: 0 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.list img{
+    padding: 2px;
+    
+}
+
+.list span{
+    text-align: center;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.footerRights{
+    text-align: center;
+    font-size: 1.2vh;
+    padding: 15px;
+    border-top: 1px solid white;
 }
