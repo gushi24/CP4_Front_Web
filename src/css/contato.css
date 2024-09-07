@@ -1,0 +1,44 @@
+.title{
+    text-align: center;
+    margin-top: 10%;
+    color: var(--color4);
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.contactInfo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.contactInfo section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.contactInfo section img{
+    background-color: var(--color5);
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    margin: 10px;
+}
+
+.contactInfo section h1{
+    font-size: 2em;
+    padding: 2px;
+}
+
+.contactInfo section h2{    
+    font-size: 1.5em;
+    padding: 2px;
+}
+
+.contactInfo section p{
+    font-size: 1em;
+    padding: 2px;
+}
