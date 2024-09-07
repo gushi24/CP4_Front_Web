@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Logo=()=>{
     return (
         <>
-            <Link to='/'><button class="logo">Logo</button></Link>
+            <Link to='/'><button class="logo">EAGLELAND🦅</button></Link>
         </>
     )
 }
