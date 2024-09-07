@@ -1,0 +1,57 @@
+.ourInfo{
+    display: flex;
+    
+}
+
+.aboutUs{
+    margin: 10%;
+}
+
+.aboutUs h1{
+    color: var(--color4);
+    font-weight: bold;
+    font-size: 4em;
+    padding: 25px 0;
+}
+
+.aboutUs p{
+    width: 50%;
+    font-size: 1.2em;
+    padding: 5px 0px;
+}
+
+.aboutUs #p2{
+    font-weight: bold;
+}
+
+.moreInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10% 10% 10% 0;
+}
+
+.moreInfoSection{
+    display: flex;
+}
+
+.moreInfoSection img{
+    background-color: var(--color4);
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.moreInfoSection div h1{
+    color: var(--color4);
+    font-weight: bold;
+    font-size: 2em;
+    padding: 25px 0;
+}
+
+.moreInfoSection div p{
+    font-size: 1.2em;
+}
+
