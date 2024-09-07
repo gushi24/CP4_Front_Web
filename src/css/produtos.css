@@ -1,0 +1,17 @@
+.productSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10%;
+}
+
+.productSection h1{
+    text-align: center;
+}
+
+.productCards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
