@@ -1,0 +1,74 @@
+.slideshow {
+    position: relative;
+    max-width: 80%; 
+    margin: auto;
+    border-radius: 10px; 
+}
+
+.slideImage{
+    display: flex ;
+    overflow: hidden;
+}
+
+.slideImage img {
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    transition: translate 300ms ease-in-out;
+}
+
+.nextSlide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px; 
+    height: auto;
+    cursor: pointer;
+    z-index: 10;
+    margin: px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.nextSlide:hover{
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.nextSlide:first-of-type {
+    left: 10px; 
+}
+
+.nextSlide:last-of-type {
+    right: 10px;
+}
+
+.equipmentSale {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px; 
+    color: var(--font-color1);
+}
+
+.equipmentSale h5 {
+    color: var(--font-color4);
+    margin: 0;
+    font-size: 0.8em; 
+}
+
+.equipmentSale span {   
+    font-size: 1.2em; 
+}
+
+.equipmentSale p {
+    margin: 5px 0;
+}
+
+.discount {
+    font-weight: bold;
+    color: var(--font-color4); 
+}
